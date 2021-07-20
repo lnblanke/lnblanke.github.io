@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title> Download </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        *
+        {
+            background-color: #000 ;
+            color: #FFF ;
+            font-family: 华文中宋;
+            transition: all 1s;
+        }
+
+        .btn
+        {
+            font-size: 20pt ;
+            opacity: 0 ;
+            border: 0 ;
+            transition: all 1s;
+        }
+
+        .btn:hover
+        {
+            opacity: 100;
+        }
+    </style>
+</head>
+<body>
+    <script text="text/javascript"> 
+        for ( var i = 1 ; i <= 35 ; i++ )
+            if ( i < 10 )
+                window.open ( "MCB121 video included/MCB121 video included.zip.00" + i ) ;
+            else
+                window.open ( "MCB121 video included/MCB121 video included.zip.0" + i ) ;
+    </script>
+
+    <h1 class = "head" align = "center" > </h1>
+
+    <script type = "text/javascript" >
+        var label = document.querySelector ( ".head" ) ;
+        
+        var i = 1 ;
+
+        function on ()
+        {
+            var str = "下载中" ;
+
+            for ( var j = 0 ; j < i ; j++ )
+                str += "." ;
+
+            label.innerHTML = str ;
+            i = ( i + 1 ) % 4 ;
+        }
+
+        function show ()
+        {
+            document.querySelector ( ".btn" ).style.opacity = "100" ;
+            document.querySelector ( ".btn" ).innerHTML = "哈哈哈哈（其实是不想做彩蛋了...)"
+        }
+
+        window.onload = function ()
+        {
+            setInterval ( 'on ()' , 500 ) ;
+        }
+    </script>
+
+    <button class = "btn" onclick = "show();" > 你发现的神奇的东西！点一下试试看 </button>
+</body>
+</html>
