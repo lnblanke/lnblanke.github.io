@@ -1,4 +1,4 @@
-import {Avatar, Card, Flex, List, Space, Tabs, Typography} from "antd";
+import {Avatar, Card, List, Space, Tabs, Typography} from "antd";
 import Meta from "antd/es/card/Meta";
 
 const {Title, Link, Text} = Typography
