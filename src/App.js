@@ -1,10 +1,10 @@
 import React from 'react';
 import {Avatar, ConfigProvider, Flex, Layout, Menu, theme, Typography} from 'antd';
-import About from "./components/about";
-import Skills from "./components/skills";
-import Exp from "./components/exp";
-import Project from "./components/project";
-import Awards from "./components/awards";
+// import About from "./components/about";
+// import Skills from "./components/skills";
+// import Exp from "./components/exp";
+// import Project from "./components/project";
+// import Awards from "./components/awards";
 import {GithubFilled, LinkedinFilled, MailFilled} from "@ant-design/icons";
 
 const {Title, Link} = Typography
@@ -128,13 +128,13 @@ const App = () => {
                                     </Link>
                                 </Flex>
                             </div>
-                            <div style = {{margin: "20px"}}>
-                                <div ref = {refs["about"]}><About/></div>
-                                <div ref = {refs["skill"]}><Skills/></div>
-                                <div ref = {refs["exp"]}><Exp/></div>
-                                <div ref = {refs["project"]}><Project/></div>
-                                <div ref = {refs["award"]}><Awards/></div>
-                            </div>
+                            {/*<div style = {{margin: "20px"}}>*/}
+                            {/*    <div ref = {refs["about"]}><About/></div>*/}
+                            {/*    <div ref = {refs["skill"]}><Skills/></div>*/}
+                            {/*    <div ref = {refs["exp"]}><Exp/></div>*/}
+                            {/*    <div ref = {refs["project"]}><Project/></div>*/}
+                            {/*    <div ref = {refs["award"]}><Awards/></div>*/}
+                            {/*</div>*/}
                         </Flex>
                     </Content>
                 </Layout>
