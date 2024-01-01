@@ -47,7 +47,7 @@ const About = () => (
 
             <Title level = {3}> Education </Title>
 
-            <Card hoverable>
+            <Card>
                 <Meta
                     title = "University of Illinois at Urbana-Champaign"
                     avatar = {<Avatar

@@ -52,7 +52,7 @@ const App = () => {
 
                     <Menu
                         mode = "horizontal"
-                        style = {{minWidth: "66vh"}}
+                        style = {{minWidth: "37vw"}}
                         onClick = {(item, _) => {
                             if (item.key === "resume") {
                                 window.location.href = "/bin/Resume.pdf"

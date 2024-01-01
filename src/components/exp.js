@@ -86,7 +86,7 @@ const Exp = () => (
 
         {
             exp.map((item) => (
-                <Card style = {{margin: "20px 0"}} hoverable key={item.title}>
+                <Card style = {{margin: "20px 0"}} key={item.title}>
                     <Meta
                         title = {item.company}
                         avatar = {<Avatar
