@@ -20,12 +20,15 @@ const courses = {
     "Theory": [
         ["CS 225", "Data Structures", "https://cs.illinois.edu/academics/courses/cs225"],
         ["CS 233", "Computer Architecture", "https://cs.illinois.edu/academics/courses/cs233"],
-        ["CS 374", "Introduction to Algorithms and Models of Computing", "https://cs.illinois.edu/academics/courses/cs374"]
+        ["CS 341", "System Programming", "https://cs.illinois.edu/academics/courses/cs341"],
+        ["CS 374", "Introduction to Algorithms and Models of Computing", "https://cs.illinois.edu/academics/courses/cs374"],
+        ["CS 421", "Programming Languages and Compilers", "https://cs.illinois.edu/academics/courses/cs421"]
     ],
     "Artificial Intelligence": [
         ["CS 440", "Artificial Intelligence", "https://cs.illinois.edu/academics/courses/cs440"],
+        ["CS 443", "Reinforcement Learning", "https://cs.illinois.edu/academics/courses/cs443"],
         ["CS 444", "Deep Learning for Computer Vision", "https://cs.illinois.edu/academics/courses/cs444"],
-        ["CS 446", "Machine Learning", "https://cs.illinois.edu/academics/courses/cs446"]
+        ["CS 446", "Machine Learning", "https://cs.illinois.edu/academics/courses/cs446"],
     ],
     "Software": [
         ["CS 222", "Software Design Lab", "https://cs.illinois.edu/academics/courses/cs222"],

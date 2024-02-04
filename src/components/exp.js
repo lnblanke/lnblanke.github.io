@@ -13,8 +13,8 @@ const exp = [
         "desp": (
             <ul>
                 <li> Mentored by <a href = "https://ece.illinois.edu/about/directory/affiliates/kcchang"> Prof. Kevin
-                    Chang </a> and work on analyzing research papers with large language model to help readers
-                    understand results of the papers better.
+                    Chang </a> and work on exploring new approaches to improve the ability of
+                    large language models to conduct long conversations with the help of memory.
                 </li>
                 <li> Improving algorithms for abstractive question answering on long documents with GPT.</li>
             </ul>
@@ -22,10 +22,27 @@ const exp = [
         "skills": ["Machine Learning", "Deep Learning", "Natural Language Processing", "Python", "PyTorch", "GPT", "Transformers"]
     },
     {
+        "title": "CS 374 Course Assistant",
+        "company": "UIUC Department of Computer Science",
+        "avatar": "https://marketing.illinois.edu/wp-content/uploads/2021/09/block-I-blue-background.png",
+        "time": "Jan 2024 - May 2024",
+        "location": "Urbana, IL",
+        "desp": (
+            <ul>
+                <li> Work as course assistant for <a href = "https://cs.illinois.edu/academics/courses/cs374"> CS 374</a>: Introduction to Algorithms and Models of Computing.
+                </li>
+                <li>
+                    Responsibilities include: grading homeworks & exams, helping teaching assistants in discussion section, and answering questions on online forum.
+                </li>
+            </ul>
+        ),
+        "skills": ["Algorithms", "Teaching"]
+    },
+    {
         "title": "Knowledge Graph Team Researcher",
         "company": "UIUC PeopleWeave Project",
         "avatar": "https://marketing.illinois.edu/wp-content/uploads/2021/09/block-I-blue-background.png",
-        "time": "Apr 2023 - Current",
+        "time": "Apr 2023 - Dec 2023",
         "location": "Urbana, IL",
         "desp": (
             <ul>
