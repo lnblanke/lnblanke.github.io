@@ -2,15 +2,16 @@ import {Avatar, List, Progress, Tabs, Typography} from "antd";
 const {Title} = Typography
 
 const skill_category = [
-    "Machine Learning",
+    "Artificial Intelligence",
     "Frontend",
     "Backend",
-    "Tools"
+    "Miscellaneous"
 ]
 
 const skills = {
-    "Machine Learning": [
+    "Artificial Intelligence": [
         ["PyTorch", "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg", 3],
+        ["HuggingFace", "https://huggingface.co/datasets/huggingface/brand-assets/resolve/main/hf-logo.svg", 3],
         ["NumPy", "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg", 3],
         ["Pandas", "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg", 3],
         ["Jupyter", "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg", 3],
@@ -20,7 +21,8 @@ const skills = {
         ["React", "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg", 2],
         ["JavaScript", "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg", 2],
         ["CSS3", "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg", 2],
-        ["HTML5", "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg", 2]
+        ["HTML5", "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg", 2],
+        ["Ant Design", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/antdesign/antdesign-original.svg", 2]
     ],
     "Backend": [
         ["C++", "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg", 3],
@@ -30,15 +32,16 @@ const skills = {
         ["MySQL", "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg", 2],
         ["Apache Kafka", "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg", 2],
         ["Spring", "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg", 2],
+        ["Ansible", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ansible/ansible-original.svg", 2],
         ["MongoDB", "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg", 1],
         ["Neo4j", "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/neo4j/neo4j-original.svg", 1]
     ],
-    "Tools": [
+    "Miscellaneous": [
         ["Git", "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg", 3],
         ["LaTeX", "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/latex/latex-original.svg", 3],
         ["Linux", "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg", 2],
         ["Vim", "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vim/vim-original.svg", 2],
-        ["AWS", "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg", 2],
+        ["AWS", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg", 2],
         ["CMake", "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cmake/cmake-original.svg", 1],
         ["Docker", "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg", 1],
         ["Photoshop", "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg", 1]

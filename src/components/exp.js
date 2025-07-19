@@ -5,34 +5,73 @@ const {Title, Text} = Typography
 
 const exp = [
     {
-        "title": "Student Researcher",
+        "title": "Research Intern",
+        "company": "IBM-Illinois Discovery Accelerator Institute",
+        "avatar": "https://marketing.illinois.edu/wp-content/uploads/2021/09/block-I-blue-background.png",
+        "time": "Aug 2024 - Current",
+        "location": "Urbana, IL",
+        "desp": (
+            <ul>
+                <li> Mentored by <a href = "https://siebelschool.illinois.edu/about/people/faculty/vadve">Prof. Vikram
+                    Adve</a> and <a href = "https://siebelschool.illinois.edu/about/people/faculty/yxw">Prof. Yuxiong
+                    Wang</a> from UIUC, and collaborate with IBM to explore approaches combining formal methods like
+                    program verification and reinforcement learning techinques to improve the quality of code generation
+                    for <a href = "https://www.ansible.com/">Ansible</a>, a domain-specific
+                    language developed by RedHet.
+                </li>
+            </ul>
+        ),
+        "skills": ["Program Synthesis", "Program Verification", "Large Language Models", "Ansible", "Reinforcment Learning"]
+    },
+    {
+        "title": "Research Assistant",
         "company": "UIUC Foward Data Lab",
         "avatar": "https://marketing.illinois.edu/wp-content/uploads/2021/09/block-I-blue-background.png",
         "time": "Sep 2023 - Current",
         "location": "Urbana, IL",
         "desp": (
             <ul>
-                <li> Mentored by <a href = "https://ece.illinois.edu/about/directory/affiliates/kcchang"> Prof. Kevin
-                    Chang </a> and work on exploring new approaches to improve the ability of
-                    large language models to conduct long conversations with the help of memory.
+                <li> Mentored by <a href = "https://siebelschool.illinois.edu/about/people/faculty/kcchang">Prof. Kevin
+                    Chang</a> and work on developing a new context-aware retrieval system for long document
+                    retrieval-augmented generation (RAG).
                 </li>
-                <li> Improving algorithms for abstractive question answering on long documents with GPT.</li>
             </ul>
         ),
-        "skills": ["Machine Learning", "Deep Learning", "Natural Language Processing", "Python", "PyTorch", "GPT", "Transformers"]
+        "skills": ["Large Language Models", "Information Retrieval", "Retrieval-augmented Generation"]
+    },
+    {
+        "title": "CS 491 CAP Course Assistant",
+        "company": "UIUC Siebel School of Computing and Data Science",
+        "avatar": "https://marketing.illinois.edu/wp-content/uploads/2021/09/block-I-blue-background.png",
+        "time": "Aug 2024 - May 2025",
+        "location": "Urbana, IL",
+        "desp": (
+            <ul>
+                <li> Work as course assistant for <a href = "https://cs.illinois.edu/academics/courses/cs491cap">CS 491
+                    CAP</a>: Introduction to Competitive Algorithmic Programming.
+                </li>
+                <li>
+                    Responsibilities include: writing new problemsets for the course, holding office hours, answering
+                    question on online forum.
+                </li>
+            </ul>
+        ),
+        "skills": ["Algorithms", "Competitive Programming", "Teaching"]
     },
     {
         "title": "CS 374 Course Assistant",
-        "company": "UIUC Department of Computer Science",
+        "company": "UIUC Siebel School of Computing and Data Science",
         "avatar": "https://marketing.illinois.edu/wp-content/uploads/2021/09/block-I-blue-background.png",
         "time": "Jan 2024 - May 2024",
         "location": "Urbana, IL",
         "desp": (
             <ul>
-                <li> Work as course assistant for <a href = "https://cs.illinois.edu/academics/courses/cs374"> CS 374</a>: Introduction to Algorithms and Models of Computing.
+                <li> Work as course assistant for <a href = "https://cs.illinois.edu/academics/courses/cs374"> CS
+                    374</a>: Introduction to Algorithms and Models of Computing.
                 </li>
                 <li>
-                    Responsibilities include: grading homeworks & exams, helping teaching assistants in discussion section, and answering questions on online forum.
+                    Responsibilities include: grading homeworks & exams, helping teaching assistants in discussion
+                    section, and answering questions on online forum.
                 </li>
             </ul>
         ),
@@ -46,15 +85,15 @@ const exp = [
         "location": "Urbana, IL",
         "desp": (
             <ul>
-                <li> Mentored by <a href = "https://caesar.web.engr.illinois.edu/"> Prof. Matthew Caesar </a> and work
-                    in group of six people as part of the <a href = "https://128.174.246.164/about"> PeopleWeave
-                        Project </a>. The main goal of the team is to discuss and implement a
+                <li> Mentored by <a href = "https://caesar.web.engr.illinois.edu/">Prof. Matthew Caesar</a> and work
+                    in group of six people as part of the <a href = "https://128.174.246.164/about">PeopleWeave
+                        Project</a>. The main goal of the team is to discuss and implement a
                     new recommendation algorithm with knowledge graph algorithms and Attention mechanism for
                     users.
                 </li>
             </ul>
         ),
-        "skills": ["Machine Learning", "Deep Learning", "Knowledge Graph", "Recommendation Algorithm", "Attention Mechanism", "Python", "PyTorch"]
+        "skills": ["Machine Learning", "Knowledge Graph", "Recommendation Algorithm"]
     },
     {
         "title": "Software Development Intern",
@@ -84,12 +123,12 @@ const exp = [
         "desp": (
             <ul>
                 <li> Analyzed data collected by mobile app developed by the <a
-                    href = "https://www.cmu.edu/scs/robotutor/"> RoboTutor team </a> during experiment with the
-                    mentorship of the project leader, <a href = "https://www.ri.cmu.edu/ri-faculty/jack-mostow/"> Prof.
-                        Jack Mostow </a>, and collaboration with a senior student
+                    href = "https://www.cmu.edu/scs/robotutor/">RoboTutor Team</a> during experiment with the
+                    mentorship of the project leader, <a href = "https://www.ri.cmu.edu/ri-faculty/jack-mostow/">Prof.
+                        Jack Mostow</a>, and collaboration with a senior student.
                 </li>
                 <li> Predicted future usage of the app by utilizing machine learning model and identified potential
-                    problems of the app and provided solutions to these problems to improve the project
+                    problems of the app and provided solutions to these problems to improve the project.
                 </li>
             </ul>
         ),
@@ -103,7 +142,7 @@ const Exp = () => (
 
         {
             exp.map((item) => (
-                <Card style = {{margin: "20px 0"}} key={item.title}>
+                <Card style = {{margin: "20px 0"}} key = {item.title}>
                     <Meta
                         title = {item.company}
                         avatar = {<Avatar
@@ -116,7 +155,7 @@ const Exp = () => (
                     <Text> {item.desp} </Text>
 
                     {item.skills.map((skill) => (
-                        <Tag bordered = {false} key={skill}> {skill} </Tag>
+                        <Tag bordered = {false} key = {skill}> {skill} </Tag>
                     ))}
                 </Card>
             ))

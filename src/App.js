@@ -1,5 +1,5 @@
 import React from 'react';
-import {Avatar, ConfigProvider, Flex, Layout, Menu, theme, Typography} from 'antd';
+import {Avatar, ConfigProvider, Flex, FloatButton, Layout, Menu, theme, Typography} from 'antd';
 import About from "./components/about";
 import Skills from "./components/skills";
 import Exp from "./components/exp";
@@ -52,7 +52,10 @@ const App = () => {
 
                     <Menu
                         mode = "horizontal"
-                        style = {{minWidth: "37vw"}}
+                        style={{
+                            flex: 1,
+                            minWidth: 0,
+                        }}
                         onClick = {(item, _) => {
                             if (item.key === "resume") {
                                 window.location.href = "/bin/Resume.pdf"
@@ -107,9 +110,10 @@ const App = () => {
                         <Flex vertical = {false} gap = "large">
                             <div style = {{textAlign: "center", margin: "20px"}}>
                                 <Avatar size = {256} src="/bin/avatar.jpeg"/>
-                                <Title> David Fu </Title>
-                                <h3> Undergraduate of <a href = "https://cs.illinois.edu"> Department of Computer
-                                    Science </a></h3>
+                                <Title> David (Jiahao) Fu </Title>
+                                <h3> PhD Student </h3>
+                                <h3> <a href = "https://siebelschool.illinois.edu"> Siebel School of Computing and Data Science </a></h3>
+                                <h3> <a href = "https://grainger.illinois.edu/"> Grainger College of Engineering </a> </h3>
                                 <h3><a href = "https://illinois.edu"> University of Illinois at Urbana-Champaign </a>
                                 </h3>
 
@@ -129,12 +133,13 @@ const App = () => {
                                 </Flex>
                             </div>
                             <div style = {{margin: "20px"}}>
-                                <div ref = {refs["about"]}><About/></div>
-                                <div ref = {refs["skill"]}><Skills/></div>
-                                <div ref = {refs["exp"]}><Exp/></div>
-                                <div ref = {refs["project"]}><Project/></div>
-                                <div ref = {refs["award"]}><Awards/></div>
+                                <div ref = {refs["about"]} style={{scrollMarginTop: "65px"}}><About/></div>
+                                <div ref = {refs["skill"]} style={{scrollMarginTop: "65px"}}><Skills/></div>
+                                <div ref = {refs["exp"]} style={{scrollMarginTop: "65px"}}><Exp/></div>
+                                <div ref = {refs["project"]} style={{scrollMarginTop: "65px"}}><Project/></div>
+                                <div ref = {refs["award"]} style={{scrollMarginTop: "65px"}}><Awards/></div>
                             </div>
+                            <FloatButton.BackTop/>
                         </Flex>
                     </Content>
                 </Layout>

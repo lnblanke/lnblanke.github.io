@@ -15,7 +15,7 @@ const proj = [
     {
         "title": "Music Recommendation",
         "desp": "I collaborated with three other students and created a music recommendation and analysis website. The website is able to recognize the genre of the song that user uploads and recommend similar songs in the database based on user preferences. The frontend is hosted on AWS Amplify, backend is hosted on AWS with API Gateway and Lambda, and the database is hosted on AWS RDS. We used a fully-connected neural network for classification and a KNN model for recommendation. ",
-        "link": "https://main.d4taukhpvxu3q.amplifyapp.com/home",
+        "link": "",
         "github": "https://github.com/lnblanke/music-recommendation",
         "image": "",
         "skills": ["React", "Python", "MySQL", "AWS", "Machine Learning", "PyTorch", "Scikit-Learn", "Neural Network", "KNN"]
@@ -23,7 +23,7 @@ const proj = [
     {
         "title": "YouTube Best Collection",
         "desp": "I worked in a group of four and created a website that fetch the YouTube trending dataset and present to user YouTube videos. The functionalities include tag-based search, creating a list of must watch videos, show videos based on criteria, etc. The frontend is hosted on AWS Amplify, and backend is hosted on AWS with API Gateway and Lambda. The database is hosted on AWS RDS.",
-        "link": "https://main.d125eebggagy4p.amplifyapp.com/",
+        "link": "",
         "github": "https://github.com/lnblanke/youtube-best-collection",
         "image": "",
         "skills": ["React", "Python", "MySQL", "AWS"]
@@ -59,7 +59,7 @@ const Project = () => (
                     }
                     </p>
 
-                    <Image preview = {false} src = {item.image} style = {{width: "125vh", textAlign: "center"}}/>
+                    <Image preview = {false} src = {item.image} style = {{textAlign: "center"}}/>
                 </Card>
             ))
         }

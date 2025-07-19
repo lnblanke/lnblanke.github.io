@@ -3,14 +3,65 @@ import Meta from "antd/es/card/Meta";
 
 const {Title, Text} = Typography
 
-const award = [
+const award = [{
+    "title": "RAISE-25 Undergraduate Track First Prize",
+    "desp": (
+        <Text>
+            Competed in <a href = "https://go.rutgers.edu/RAISE-25">
+            RAISE-25 Student Informatics, Data Science, and AI Competition </a> hosted by Rutgers University Edward J.
+            Bloustein School of Planning and Public Policy with over 100 undergraduate and graduate teams, earning the
+            only first prize in undergraduate track.
+        </Text>
+    )
+},
     {
-        "title": "Champion of 2023 ICPC Mid-Central Programming Contest",
+        "title": "2024 ICPC Mid-Central Programming Contest Gold Medal",
+        "desp": (
+            <Text>
+                Participated in 2024 <a href = "https://icpc.global/"> International Collegiate Programming
+                Contest(ICPC) </a>
+                Mid-Central Programming Contest held in November 2024 and ranked 4/81.
+            </Text>
+        )
+    },
+    {
+        "title": "The 48th Annual ICPC World Finals Honors",
+        "desp": (
+            <Text>
+                Participated in the 48th annual <a href = "https://worldfinals.icpc.global//"> International Collegiate
+                Programming
+                Contest(ICPC) World Fianls </a> held in Astana, Kazakhstan in September 15-20 2024 and ranked 69/141.
+            </Text>
+        )
+    },
+    {
+        "title": "2023 ICPC Mid-Central Programming Contest Gold Medal",
         "desp": (
             <Text>
                 Participated in 2023 <a href = "https://icpc.global/"> International Collegiate Programming
                 Contest(ICPC) </a>
-                Mid-Central Programming Contest held in February 2023 and ranked 1/100.
+                Mid-Central Programming Contest held in February 2024 and ranked 3/87.
+            </Text>
+        )
+    },
+    {
+        "title": "2022 ICPC North America Championship Honorably Mentioned",
+        "desp": (
+            <Text>
+                Participated in 2022 <a href = "https://nac.icpc.global/"> International Collegiate Programming
+                Contest(ICPC) North America Championship </a>
+                held in May 2023 and ranked 31/51.
+            </Text>
+        )
+    },
+    {
+        "title": "2022 ICPC Mid-Central Programming Contest Champion",
+        "desp": (
+            <Text>
+                Participated in 2022 <a href = "https://icpc.global/"> International Collegiate Programming
+                Contest(ICPC) </a>
+                Mid-Central Programming Contest held in February 2023 and ranked 1/100. Proceeded to North America
+                Championship (NAC).
             </Text>
         )
     },
@@ -23,21 +74,11 @@ const award = [
         )
     },
     {
-        "title": "Grainger College of Engineering James Scholar",
+        "title": "2021 ICPC Mid-Central Programming Contest Gold Medal",
         "desp": (
             <Text>
-                <a href = "https://students.grainger.illinois.edu/jscholar/about/"> The James Scholar Honors
-                    Program </a> in the Grainger College of Engineering recognizes the talents of
-                academically outstanding students, promotes curricular/co-curricular growth, and helps prepare students
-                to stand out in their future endeavors.
-            </Text>
-        )
-    },
-    {
-        "title": "Gold Medal of 2022 ICPC Mid-Central Programming Contest",
-        "desp": (
-            <Text>
-                Participated in 2022 International Collegiate Programming Contest(ICPC) Mid-Central Programming Contest
+                Participated in 2021 <a href = "https://icpc.global/"> International Collegiate Programming
+                Contest(ICPC) </a> Mid-Central Programming Contest
                 held in March 2022 and ranked 4/74.
             </Text>
         )
@@ -46,7 +87,7 @@ const award = [
         "title": "2019 HiMCM Finalist",
         "desp": (
             <Text>
-                I collaborated with three classmates in 2019 <a
+                Collaborated with three classmates in 2019 <a
                 href = "https://www.comap.com/highschool/contests/"> HiMCM </a> contest.
                 The goal of the contest is create a mathematical model to solve the given problem using relevant
                 theories and models. Our team won Finalist among all global submissions by placing top 64 over 791
